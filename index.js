@@ -7,7 +7,7 @@ const port = 3000;
 app.use(cors());
 app.use(bodyParser.json());
 app.get("/", (req, res) => {
-  res.send("Hello World!");
+  res.send("Welcome from Namste NodeJS");
 });
 app.use("/api", userRoutes);
 app.listen(port, () => {
